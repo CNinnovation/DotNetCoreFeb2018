@@ -1,2 +1,3 @@
-# DotNetCoreFeb2018
-Sample code
+# .NET Core, EF Core, ASP.NET Core
+
+sample code for a workshop in Vienna
