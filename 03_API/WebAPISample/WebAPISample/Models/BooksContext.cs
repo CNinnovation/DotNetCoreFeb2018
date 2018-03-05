@@ -1,24 +1,18 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace EFCoreSample
+namespace WebAPISample.Models
 {
     public class BooksContext : DbContext
     {
-        //public BooksContext()
-        //{
-
-        //}
-
         public BooksContext(DbContextOptions<BooksContext> options)
             : base(options)
         {
 
         }
         public DbSet<Book> Books { get; set; }
-
-        // protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) => base.OnConfiguring(optionsBuilder);
     }
 }
